@@ -1,0 +1,4 @@
+edu/ismagi/hadoop/App.class
+edu/ismagi/hadoop/ReadHDFS.class
+edu/ismagi/hadoop/HadoopFileStatus.class
+edu/ismagi/hadoop/HDFSWrite.class
