@@ -3,6 +3,9 @@ package edu.ismagi.hadoop;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+//import java.nio.file.FileSystem;
+//import java.nio.file.Path;
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
 
@@ -15,6 +18,7 @@ public class ReadHDFS {
 
         String filePath = args[0];
         Configuration conf = new Configuration();
+        conf.set("fs.defaultFS", "hdfs://localhost:9000");
         FileSystem fs = FileSystem.get(conf);
 
         Path path = new Path(filePath);

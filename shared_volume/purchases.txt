@@ -1,0 +1,4 @@
+Item,Quantity,Price
+Laptop,1,1500
+Mouse,2,40
+Keyboard,1,100
